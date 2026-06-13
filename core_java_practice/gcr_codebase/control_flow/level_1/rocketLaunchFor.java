@@ -2,7 +2,7 @@ package core_java_practice.gcr_codebase.control_flow.level_1;
 
 import java.util.Scanner;
 
-public class rocketLaunch {
+public class rocketLaunchFor {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -10,9 +10,8 @@ public class rocketLaunch {
         int counter = sc.nextInt();
         sc.close();
 
-        while (counter >= 1) {
-            System.out.println(counter);
-            counter--;
+        for (int i = counter; i >= 1; i--) {
+            System.out.println(i);
         }
 
         System.out.println("Rocket Launched!");
