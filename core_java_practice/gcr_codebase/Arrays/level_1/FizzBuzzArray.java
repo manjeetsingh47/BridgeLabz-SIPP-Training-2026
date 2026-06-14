@@ -11,7 +11,7 @@ public class FizzBuzzArray {
 
         if (number <= 0) {
             System.out.println("Please enter a positive integer.");
-            return;
+            
         }
 
         String[] result = new String[number + 1];
