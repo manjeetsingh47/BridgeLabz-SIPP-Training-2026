@@ -11,7 +11,6 @@ public class OddEvenArrays {
 
         if (number <= 0) {
             System.out.println("Invalid Input. Please enter a natural number.");
-            return;
         }
 
         int[] odd = new int[number / 2 + 1];
