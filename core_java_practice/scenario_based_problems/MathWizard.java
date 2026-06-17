@@ -34,6 +34,7 @@ public class MathWizard {
     }
 
     
+    
     public double factorial(double n) {
 
         double fact = 1;
