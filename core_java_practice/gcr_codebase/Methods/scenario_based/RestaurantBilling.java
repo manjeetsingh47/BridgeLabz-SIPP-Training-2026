@@ -65,5 +65,7 @@ public class RestaurantBilling {
         System.out.println("GST       : ₹" + gst);
         System.out.println("Discount  : ₹" + discount);
         System.out.println("Final Bill: ₹" + finalBill);
+
+        sc.close();
     }
 }
