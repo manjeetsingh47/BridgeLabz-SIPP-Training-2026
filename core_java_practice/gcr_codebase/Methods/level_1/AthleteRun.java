@@ -11,6 +11,7 @@ public class AthleteRun {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        sc.close();
 
         double a = sc.nextDouble();
         double b = sc.nextDouble();
