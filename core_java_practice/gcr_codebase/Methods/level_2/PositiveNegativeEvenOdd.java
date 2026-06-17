@@ -48,6 +48,7 @@ public class PositiveNegativeEvenOdd {
                 System.out.println(num + " is Negative");
             }
         }
+        sc.close();
 
         int result = compare(numbers[0], numbers[4]);
 

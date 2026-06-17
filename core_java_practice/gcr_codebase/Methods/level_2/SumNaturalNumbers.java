@@ -25,7 +25,7 @@ public class SumNaturalNumbers {
 
         if (n <= 0) {
             System.out.println("Not a Natural Number");
-            return;
+            
         }
 
         int recursionResult = recursiveSum(n);
