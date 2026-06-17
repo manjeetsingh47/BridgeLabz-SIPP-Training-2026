@@ -19,6 +19,7 @@ public class ElectricityBillCalculator {
         }
         else if (units <= 200) {
             bill = (100 * 5) + ((units - 100) * 7);
+            
         }
         else {
             bill = (100 * 5) +
