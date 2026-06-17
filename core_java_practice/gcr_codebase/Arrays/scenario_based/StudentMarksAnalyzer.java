@@ -51,5 +51,6 @@ public class StudentMarksAnalyzer {
             if (mark > average)
                 System.out.print(mark + " ");
         }
+        sc.close();
     }
 }
