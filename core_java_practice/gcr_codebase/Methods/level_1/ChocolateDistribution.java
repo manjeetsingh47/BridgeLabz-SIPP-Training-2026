@@ -19,6 +19,7 @@ public class ChocolateDistribution {
 
         int chocolates = sc.nextInt();
         int children = sc.nextInt();
+        sc.close();
 
         int[] result =
                 findRemainderAndQuotient(chocolates, children);
