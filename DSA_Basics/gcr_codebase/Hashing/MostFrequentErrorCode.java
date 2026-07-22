@@ -1,4 +1,4 @@
-package DSA_Basics.Hashing;
+package DSA_Basics.gcr_codebase.Hashing;
 
 import java.util.*;
 public class MostFrequentErrorCode {
